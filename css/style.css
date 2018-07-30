@@ -1,0 +1,148 @@
+html {
+width:100%;
+height:100%;
+}
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-family:Arial, Helvetica, Sans-serif;
+	font-size:0.875em;
+	line-height:1.5;
+	font-weight:400;
+	color:#434343;
+	background:rgba(243, 165, 243, .3);
+}
+main{
+	height:2560px;
+}
+nav{
+	height:25%;
+	width:100%;
+}
+nav section h1{
+	line-height: 50vh;
+	text-align:center;
+}
+section.k1 button{
+	border:none;
+	background-color:lightblue;
+	float:left;
+	width:50%;
+	height:50%;
+}
+section.k2 button{
+	border:none;
+	background-color:#ff8080;
+	float:left;
+	width:50%;
+	height:50%;
+}
+section.k3 button{
+	border:none;
+	background-color:lightgreen;
+	float:left;
+	width:50%;
+	height:50%;
+}
+section.k4 button{
+	border:none;
+	background-color:#ffff66;
+	float:left;
+	width:50%;
+	height:50%;
+}
+
+section button {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+section.k1 button:active{
+	background-color:#c4e3ed;
+}
+
+section.k2 button:active{
+	background-color:#ffb3b3;
+}
+
+section.k3 button:active{
+	background-color:#bdf5bd;
+}
+
+section.k4 button:active{
+	background-color:#ffff99;
+}
+
+section.art{
+	display:inline-block;
+	width:100%;
+	height:25%;
+	/*background-color:#f3a5f3*/
+}
+
+section.art h1{
+	margin-top:4em;
+	text-align:center;
+}
+
+section.art img{
+	float:left;
+	margin:1em;
+	height:25em;
+	width:25em;
+}
+
+section.art p{
+	text-align:justify;
+	margin:2em;
+	font-size:32px;
+}
+
+section.gal{
+	display:inline-block;
+	width:100%;
+	height:15%;
+	margin: 2em 2em 2em 2em;
+	/*background-color:#f3a5f3*/
+}
+
+section.gal a {
+	padding: 0em 0.5em 0em 0.5em;
+}
+
+section.blog {
+	width:100%;
+	height:30%;
+}
+
+footer {
+	width:100%;
+	height:5%;
+	background-color:gray;
+}
+@media (min-width: 1100px) {
+	main {width:100%;}
+	footer {width:100%;}
+	section.art {width:100%;}
+}
+@media (max-width: 1100px) and (min-width: 1000px) {
+	main {width:100%;}
+	footer {width:100%;}
+	section.art {width:100%;}
+}
+@media (max-width: 1000px) and (min-width: 800px) {
+	main {width:100%;}
+	footer {width:100%;}
+	section.art {width:100%;}
+}
+@media (max-width: 800px) and (min-width: 500px) {
+	main {width:100%;}
+	footer,
+	section.art {width:100%;}
+}
+@media (max-width: 500px) {
+	main {width:100%;}
+	footer,
+	section.art {width:100%;}
+}
