@@ -6,7 +6,7 @@ body{
 	line-height:1.5;
 	font-weight:400;
 	color:#434343;
-	background:rgba(243, 165, 243, .3);
+	background:#cccccc;
 }
 nav{
 	height:25%;
@@ -82,24 +82,70 @@ section.art p{
 }
 
 section.gal{
-	display:inline-block;
 	height:15%;
-	margin: 2em 2em 2em 2em;
+	display:inline;
 	/*background-color:#f3a5f3*/
 }
 
+section.gal h1{
+	text-align:center;
+}
+
 section.gal a {
-	padding: 0em 0.5em 0em 0.5em;
+	margin:0em 1em 0em 1em;
 }
 
 section.blog {
 	height:30%;
-	margin:1em;
+	margin:4em 1em 1em 1em;
 }
+
+section.blog h1{
+	text-align:center;
+}
+
 section.blog img {
 	height: auto;
 	width: 100%;
 	margin:0 auto;
+}
+
+section.kontakt{
+	margin:1em;
+}
+
+section.kontakt h1{
+	text-align:center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 footer {
