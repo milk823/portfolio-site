@@ -8,8 +8,9 @@ body{
 	color:#434343;
 	background:#cccccc;
 }
+
 nav{
-	height:25%;
+	
 }
 nav section h1{
 	line-height: 50vh;
@@ -19,7 +20,7 @@ section.k button{
 	border: none;
 	float:left;
 	width:50%;
-	height:50%;
+	height:50vh;
 }
 section.k1 button{
 	background-color:lightblue;
@@ -59,7 +60,8 @@ section.k4 button:active{
 section.art{
 	display:inline-block;
 	width:100%;
-	height:25%;
+	height: auto;
+	margin: 6em 0em 0em 0em;
 	/*background-color:#f3a5f3*/
 }
 
@@ -78,25 +80,22 @@ section.art img{
 section.art p{
 	text-align:justify;
 	margin:2em;
-	font-size:32px;
+	font-size:28px;
 }
 
 section.gal{
-	height:15%;
 	display:inline;
+	margin:1em;
+	text-align:center;
 	/*background-color:#f3a5f3*/
 }
 
-section.gal h1{
-	text-align:center;
-}
-
 section.gal a {
-	margin:0em 1em 0em 1em;
+	margin:0em 2em 0em 2em;
 }
 
 section.blog {
-	height:30%;
+	height: auto;
 	margin:4em 1em 1em 1em;
 }
 
@@ -110,49 +109,25 @@ section.blog img {
 	margin:0 auto;
 }
 
-section.kontakt{
-	margin:1em;
-}
-
-section.kontakt h1{
+section.media{
+	height: 100vh;
+	line-height:50vh;
+	/*margin:10em 2em 10em 2em;*/
 	text-align:center;
 }
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+section.media a img{
+	padding:2em;
 }
 
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
 
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
 
 footer {
 	width:100%;
-	height:5%;
+	height:8vh;
 	background-color:gray;
+	text-align:center;
 }
+
 @media (min-width: 1100px) {
 	main {width:100%;}
 	footer {width:100%;}
