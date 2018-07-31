@@ -61,7 +61,7 @@ section.art{
 	display:inline-block;
 	width:100%;
 	height: auto;
-	margin: 6em 0em 0em 0em;
+	margin: 6em 0em 8em 0em;
 	/*background-color:#f3a5f3*/
 }
 
@@ -91,12 +91,12 @@ section.gal{
 }
 
 section.gal a {
-	margin:0em 2em 0em 2em;
+	margin:0em 4em 0em 4em;
 }
 
 section.blog {
 	height: auto;
-	margin:4em 1em 1em 1em;
+	margin:10em 1em 1em 1em;
 }
 
 section.blog h1{
